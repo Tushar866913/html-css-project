@@ -1,0 +1,432 @@
+* {
+    font-family: Dosis, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 30px;
+}
+
+/* section_1 start */
+.services {
+    /* border: 1px solid black; */
+    position: relative;
+
+}
+
+.services h1 {
+    opacity: 0.05;
+    margin: 0px;
+    font-size: 110px;
+    letter-spacing: 6px;
+}
+
+.speciality {
+    position: absolute;
+    top: 22px;
+    left: 20px;
+    font-size: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.speciality a {
+    text-decoration: none;
+    margin-left: 600px;
+    margin-right: 0px;
+    color: #919197;
+    font-size: 15px;
+    padding: 4px 0px;
+
+}
+
+.speciality a:hover {
+    border-bottom: 2px solid orange;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content img {
+    height: 60px;
+    width: 60px;
+}
+
+.content h3 {
+    font-size: 20px;
+}
+
+.content p {
+    color: #919197;
+    font-size: 17px;
+}
+
+.content a {
+    font-size: 13px;
+    text-decoration: none;
+    padding: 4px 0px;
+    color: #919197;
+}
+
+.content a:hover {
+    border-bottom: 2px solid orange;
+}
+
+.main_div1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 0px 40px;
+}
+
+/* section_1 end */
+
+/* section_2 start */
+.about_link {
+    font-size: 13px;
+    text-decoration: none;
+    padding: 4px 0px;
+    color: #919197;
+}
+
+.about_link:hover {
+    border-bottom: 2px solid orange;
+}
+
+.para {
+    color: #919197;
+    font-size: 17px;
+    line-height: 28px;
+    margin: 20px 0px;
+}
+
+.about {
+    display: flex;
+    margin-top: 100px;
+}
+
+.about img {
+    width: 550px;
+    height: 350px;
+}
+
+.image_container {
+    padding: 100px;
+}
+
+.para_container {
+    padding-right: 80px;
+}
+
+/* section_2 end */
+
+
+/* section_3 start */
+.text {
+    margin-left: 60px;
+    margin-right: 0px;
+    padding: 0px 30px;
+}
+
+.text h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #e47312;
+}
+
+.text p {
+    font-size: 17px;
+    color: #919197;
+}
+
+.section_3 {
+    display: flex;
+}
+
+/* section_3 end */
+
+/* section-4 start */
+.main_div2 {
+    background-color: rgb(252, 248, 248);
+    margin-top: 80px;
+    /* padding: 10px; */
+}
+
+.project {
+    /* border: 1px solid black; */
+    position: relative;
+    padding: 40px 6px;
+    margin-bottom: 40px;
+
+}
+
+.project h1 {
+    opacity: 0.05;
+    margin: 0px;
+    font-size: 110px;
+    letter-spacing: 6px;
+}
+
+.work {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    font-size: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.work a {
+    text-decoration: none;
+    margin-left: 800px;
+    margin-right: 0px;
+    color: #919197;
+    font-size: 15px;
+    padding: 4px 0px;
+
+}
+
+.work a:hover {
+    border-bottom: 2px solid orange;
+}
+
+.image_gallery {
+    display: flex;
+    margin-left: 13px;
+    /* justify-content: space-around; */
+
+}
+
+.image_gallery img {
+    height: 400px;
+    width: 400px;
+}
+
+.img_cont {
+    padding: 10px;
+}
+
+.together {
+    border: 1px solid black;
+    margin-top: 20px;
+    height: 380px;
+    background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), 
+    url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+    background-attachment: scroll, fixed;
+    background-position: 0px 0px, 50% 50%;
+}
+
+.together h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.together h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    color: hsla(0, 0%, 100%, 0.7);
+}
+.together h3{
+    text-align: center;
+}
+.together a {
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    padding: 4px 0px;
+}
+.together a:hover{
+    border-bottom: 3px solid white;
+
+}
+.work_2{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    font-size: 40px;
+    align-items: center;
+    display: flex;   
+}
+.work_2 a{
+    text-decoration: none;
+    margin-left: 850px;
+    margin-right: 0px;
+    color: #919197;
+    font-size: 15px;
+    padding: 4px 0px;
+}
+.work_2 a:hover{
+    border-bottom: 2px solid orange;
+}
+.team{
+    /* border: 1px solid black; */
+    height: 1250px;
+   
+}
+.team_content{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+.team_photo{
+    height: 280px;
+    width: 250px;
+    /* border: 1px solid black; */
+    background-image: url('https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    margin-bottom: 0px;
+    
+}
+.team_text{
+    background-color: white;
+    margin-top: 0px;
+    width: 250px;
+    height: 120px;
+    /* border: 1px solid black; */
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.team_text h2{
+    font-size: 17px;
+    font-weight:0px;   
+    
+}
+.team_text h3{
+    font-size: 16px;
+    font-weight: 0px;
+    color: #919197;
+}
+.icon{
+    position: absolute;
+    height: 180px;
+    width: 60px;
+    /* border: 1px solid black; */
+    bottom: 0px;
+    left: 190px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;   
+    color: white;
+    background-color: #e47312;
+    padding: 0px 10px;
+}
+.icon i{
+    border-bottom: 1px solid white;
+    padding: 10px;
+    height: 60px;
+    padding-top: 20px;
+    cursor: pointer;
+    
+}
+.testimonal{
+    /* border: 1px solid black; */
+    height: 600px;
+    position: relative;
+    margin-top: 100px;
+}
+.test_content{
+    /* border: 1px solid red; */
+    width: 40%;
+    position: absolute;
+    top: 280px;
+    left: 30px;
+}
+.title_block{
+    /* border: 1px solid black; */
+    height: auto;
+    width: 320px;
+    left: 580px;
+    top: 80px;
+    padding: 0px 20px;
+    padding-bottom: 10px;
+    position: relative;
+    background-color: white;
+}
+.title_block h4{
+    padding-top: 40px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.title_block h5{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: #919197;
+}
+.title_block p{
+    text-align: center;
+}
+.circle{
+    border: 1px solid orange;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 122px;
+    top: -30px;
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #e47312;
+}
+/* section_4 end */
+
+/* section_5 start */
+.blog{
+    border: 1px solid black;
+    height: 480px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block_content{
+    height: 480px;
+    width: 32%;
+    border: 1px solid red;
+    background-color: #e47312;
+    background-image: linear-gradient(158deg, #e47312, #ff6361);
+    
+    
+}
+.block_content img{
+    height: 280px;
+    width: 100%;
+}
+.block_content h1{
+    font-size: 19px;
+    color: white;
+    padding: 0px 20px;
+
+}
+.block_content p{
+    color: white;
+    line-height: 25px;
+    padding: 0px 20px;
+}
+.block_content a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    border-bottom:2px solid #c7c7cf;
+    margin: 0px 20px;
+    padding-bottom: 6px ;
+}
